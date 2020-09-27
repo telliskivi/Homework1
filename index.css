@@ -1,0 +1,15 @@
+#flex-navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#flex-navbar .navbar-icon{
+    float: left;
+
+}
+#flex-navbar .navbar-search{
+}
+
+#flex-navbar .navbar-usericon{
+    float: right;
+}
