@@ -7,7 +7,8 @@ body {
 
 }
 #flex-navbar{
-    height: 50px;
+    padding-top: 5px;
+    height: 60px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -17,14 +18,32 @@ body {
     background-color: white;
 
 }
+#navbar-search{
+    border: 4px;
+    display: inline;
+}
+#flex-navbar input{
+    width: 400px;
+    height: 40px;
+    margin-right: -6px;
+    border-color: grey;
+    border-radius: 10px 0 0 10px;
+}
 #flex-navbar img{
     height: 50px;
     width: 50px;
     margin: 10px;
+   
 }
 #navbar-search button {
     margin: 0;
     padding: 0;
+    border: 0;
+    background-color:#0079b8 ;
+    color: white;
+    height: 40px;
+    width: 90px;
+    border-radius: 0 10px 10px 0;
 
 }
 
@@ -60,13 +79,13 @@ body {
 
 
 }
-.image-post .post-header img{
+.image-post .post-header > img{
     float: left;
     width: 35px;
     height: 35px;
     margin-left: 10px;
 }
-.image-post .post-header p{
+.image-post .post-header  p{
     margin-right: 10px;
     color: gray;
     float: right;
@@ -81,7 +100,10 @@ body {
 }
 .image-post .post-button button{
     width: 60px;
+    height: 30px;
+    font-size: 20px;
     border-radius: 10px;
     background-color: #0079b8;
     padding-top: 2px;
+    border: 0;
 }
